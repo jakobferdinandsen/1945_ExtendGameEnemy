@@ -19,7 +19,7 @@ public class EnemySpawnerStrategy : MonoBehaviour {
         if (random.Next(100) < spawnPercentage)
         {
             //instansiate enemy
-            GameObject randomEnemy = (GameObject)Instantiate(Resources.Load("Enemy"));
+            GameObject randomEnemy = (GameObject)Instantiate(Resources.Load("Wompwomp"));
             randomEnemy.transform.position = new Vector3(10,0,0);
 
         }
