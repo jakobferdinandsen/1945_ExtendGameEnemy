@@ -10,9 +10,9 @@ public class EnemySpawnerStrategy : MonoBehaviour {
     
     // Use this for initialization
     public virtual void StartStrategy () {
-		
+
 	}
-	
+
 	// Update is called once per frame
 	public virtual void UpdateStrategy () {
         Debug.Log("strategy fucked");
